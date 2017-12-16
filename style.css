@@ -210,7 +210,7 @@ header nav{
   text-transform: uppercase;
   text-align: right;
   background-color: rgba(255,255,255,0.4);
-  color: black;
+  color: rgb(90,90,90);
   width:100%;
 }
 header nav [class*="col"] {
@@ -228,13 +228,16 @@ header nav span {
   display: block;
   white-space: nowrap
 }
+.workwithme {
+  min-width: 144px;
+}
 
 h2.logo {
     position: absolute;
     font-size: 32px;
     top: 6px;
     left: 3%;
-    color: black;
+    color: rgb(90,90,90);
 }
 
 .small-banner{
@@ -242,7 +245,8 @@ h2.logo {
   padding-bottom: 1%;
 }
 #disqus_thread{
-  padding-top: 5%;
+  padding: 5%;
+  background-color: #D7E8F4;
 }
 .padding-services-top img{
   margin: 0 7%;
@@ -347,6 +351,26 @@ textarea:-moz-placeholder { /* Firefox 18- */
 }
 .blog-post h2  { font-size: 1.5rem;}
 
+.blog-post h1{
+  margin-bottom: 0%;
+  margin-top: 1rem;
+}
+
+
+.social-share {
+  border-top: 1px solid rgb(120,120,120);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.social-share div {
+  padding:0;
+}
+
+.social-share a {
+  border-bottom: none;
+}
+
+
 
 /*-- BACKGROUND IMAGES --*/
 .blog-1-bg {
@@ -392,6 +416,23 @@ textarea:-moz-placeholder { /* Firefox 18- */
 /*POST PAGE*/
 .blog-post img{
   width: 100%;
+  margin:auto;
+  margin-bottom: 1rem;
+}
+
+.blog-post {
+  padding:0 5%;
+}
+
+.sidebar div {
+  border: 1px solid rgb(240,240,240);
+  padding: 2%;
+  margin-bottom: 1rem;
+}
+
+
+.blog-post h1 {
+  text-align: center;
 }
 
 
@@ -446,7 +487,7 @@ footer{
 }
 
 .archive a:hover{
-  color: black;
+  color: rgb(90,90,90);
 }
 
 .fa{
@@ -468,15 +509,15 @@ footer{
 /*this is where you can chand the color of the buttons*/
 .burger-button span{
   width: 25px;
-  border: 2px solid black;
-  background-color: black;
+  border: 2px solid rgb(90,90,90);
+  background-color: rgb(90,90,90);
   display: block;
   border-radius: 22px;
   transition: 2s;
 }
 .burger-button.active span{
-  border-color: #000;
-  background-color:#000;
+  border-color: rgb(90,90,90);
+  background-color: rgb(90,90,90);
 }
 
 .burger-top, .burger-bottom{
@@ -539,7 +580,7 @@ footer{
 }
 
 .burger-menu a:hover {
-  color: black;
+  color: rgb(90,90,90);
 }
 
 .burger-menu li{list-style:none}
@@ -598,6 +639,10 @@ footer{
       footer .sidebars svg{
         width:50px;
         padding:5px;
+      }
+
+      post-layout {
+        margin-top: 60px;
       }
 
 }

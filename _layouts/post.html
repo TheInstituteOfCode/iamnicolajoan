@@ -1,35 +1,60 @@
 ---
-layout: default
 navclass: post-nav
 ---
 
-<section class="padded blog-post">
 
-  {{content}}
-</section>
-<section>
-  <div class="grid-middle-center padded-2">
-    <img src="/images/signiture.png">
-  </div>
+<!DOCTYPE html>
+<html>
 
-  <div class="social-share grid">
-      <p class="col-6"> CATEGORY: {{page.category}} </p>
-      <div class="col-6">
-      <p class="padded-0 text-right"> SHARE:
-      <a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://facebook.com/sharer.php?u={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://plus.google.com/share?url={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-      <a href="http://pinterest.com/pin/create/button/?url={{site.url}}{{page.url}}&description={{page.title}}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-      </p>
+  {% include head.html %}
+
+<!-- WEBSITE START -->
+<body>
+
+{% include header-blog.html %}
+
+<section class="padded grid-center post-layout">
+  <div class="col-9_sm-12 blog-post">
+    <h1> {{page.title}} </h1>
+    <p class="small text-center"> {{page.date | date:"%A %e %B %Y" }}</p>
+        {{content}}
+
+    <div class="social-share grid">
+        <div class="col-6">
+          <p class="padded-0"> CATEGORY: {{page.category}} </p>
+        </div>
+        <div class="col-6">
+        <p class="padded-0 text-right"> SHARE:
+        <a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/sharer.php?u={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://plus.google.com/share?url={{site.url}}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        <a href="http://pinterest.com/pin/create/button/?url={{site.url}}{{page.url}}&description={{page.title}}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+        </p>
+      </div>
     </div>
-  </div>
 
+  </div>
+  <!-- <div class="col-4 mobile-hide sidebar">
+    <div class="padded-2">
+      <h4> iAmNicolaJoan </h4>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+    </div>
+    <div class="padded-2">
+      <img src="#">
+    </div>
+    <div class="padded-2">
+      BOX 1
+    </div>
+    <div class="padded-2">
+      BOX 1
+    </div>
+  </div> -->
 
 </section>
 
 <section class="padded">
 <!--- this is the footer for the blog posts -->
-    <div class="grid-middle-center padded-2">
+    <div class="grid-middle-center padded-2 padded-top-2px">
       <hr class="col-3_sm-12 line2">
       <h3>You may also like</h3>
       <hr class="col-3_sm-12 line2">
@@ -45,10 +70,12 @@ navclass: post-nav
         </div>
      {% endfor %}
     </div>
+</section>
 
-    {% include discus.html %}
-    {% include explore-categories.html %}
+{% include discus.html %}
 
+<section>
+  {% include explore-categories.html %}
 </section>
   {% include subscribe.html %}
 
