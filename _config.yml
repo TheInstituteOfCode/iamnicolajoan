@@ -1,0 +1,32 @@
+
+
+permalink: /:year/:title
+
+
+
+twitter_username:
+
+jekyll-archives:
+  enabled:
+    - year
+  permalinks:
+    year: '/:year/'
+  layout: year
+  defaults:
+    title: '/:year/'
+
+categories:
+  - lifestyle
+  - travel
+  - food
+
+
+pagination:
+  enabled: true
+  layout: cat2
+  collection: posts
+  per-page: 6
+  permalink: '/:num/'
+  title:
+
+category: lifestyle, travel, food
