@@ -350,13 +350,13 @@ textarea:-moz-placeholder { /* Firefox 18- */
 
 /*-- BACKGROUND IMAGES --*/
 .blog-1-bg {
-  background-image: url(images/gilinav.JPG);
+  background-image: url(/images/gilinav.JPG);
 }
 .blog-2-bg {
-    background-image: url(images/feelinglostnav.png);
+    background-image: url(/images/feelinglostnav.png);
 }
 .blog-3-bg {
-    background-image: url(images/skydivenav.png);
+    background-image: url(/images/skydivenav.png);
 }
 .blog-bg{
   background-image: url(/images/blognav.jpg);
@@ -366,23 +366,23 @@ textarea:-moz-placeholder { /* Firefox 18- */
 
 }
 .navsec .contact-bg{
-  background-image: url(images/contactnav.jpg);
+  background-image: url(/images/contactnav.jpg);
   min-height: 25vh;
 }
 .services-bg{
-  background-image: url(images/servicesnav.jpg);
+  background-image: url(/images/servicesnav.jpg);
 }
 .about-me-bg{
-  background-image: url(images/aboutmenav.jpg);
+  background-image: url(/images/aboutmenav.jpg);
 }
 .lifestyle-bg{
-    background-image: url(images/lifestyle.jpg);
+    background-image: url(/images/lifestyle.jpg);
 }
 .travel-bg{
-    background-image: url(images/travel.JPG);
+    background-image: url(/images/travel.JPG);
 }
 .food-bg{
-    background-image: url(images/food.JPG);
+    background-image: url(/images/food.JPG);
 }
 
 .year-bg{
