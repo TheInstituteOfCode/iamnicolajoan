@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'The Stunning Gili Islands // Lombok, Indonesia'
-featured_image: /images/food.JPG
+featured_image: /images/gilinav.jpg
 author: Nicola Joan
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.
-category: food
+  I spent 4 days & 3 nights on the beautiful Gili Islands in Lombok. A nice lil
+  holiday, from a holiday haha. We stayed at the Camilla Resort on Gili Air,
+  enjoying a beautiful wooden style 'house' with our own private pool!
+category: travel
 ---
+
+
