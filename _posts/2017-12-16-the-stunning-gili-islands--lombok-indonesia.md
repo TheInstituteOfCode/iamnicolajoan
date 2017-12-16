@@ -33,10 +33,6 @@ The resort offered us free bikes to use during our stay which was fantastic to g
 
 ![](/uploads/versions/fire---x----640-426x---.JPG)<br>Dinner at Casa Vintage Beach. Sitting on the beach on a blanket with a warm bonfire crackling in front. Perfect dinner with perfect company.
 
-![](/uploads/versions/horse---x----640-424x---.JPG)<br>![](/uploads/versions/bar---x----640-426x---.JPG)<br>I had a lovely time in the Gili Islands, Had a bumpy boat ride back to Bali though! I'm excited to go and explore other parts of Indonesia now. There are even more beautiful islands which are untouched by tourism…That's next on the wish list.<br>&nbsp;
-
-![](/uploads/versions/signiture---x----320-87x---.png)
-
-&nbsp;
+![](/uploads/versions/horse---x----640-424x---.JPG)<br>![](/uploads/versions/bar---x----640-426x---.JPG)<br>I had a lovely time in the Gili Islands, Had a bumpy boat ride back to Bali though! I'm excited to go and explore other parts of Indonesia now. There are even more beautiful islands which are untouched by tourism…That's next on the wish list.
 
 Photographer: Supersmarindo&nbsp;[www.shotsincanyon.com](www.shotsincanyon.com)
