@@ -389,6 +389,10 @@ textarea:-moz-placeholder { /* Firefox 18- */
   background-image: url(/images/years.jpg);
 }
 
+/*POST PAGE*/
+.blog-post img{
+  width: 100%;
+}
 
 
 

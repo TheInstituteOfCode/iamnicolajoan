@@ -28,5 +28,6 @@ pagination:
   per-page: 6
   permalink: '/:num/'
   title:
+  sort_reverse: true
 
 category: lifestyle, travel, food
